@@ -26,9 +26,16 @@ To use syntaxify via CDN, include the following links into ypur HTML:
 ```html
 <!-- Include Syntaxify CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SamuelDevp/Syntaxify@main/src/code-terminal.css">
+<!-- Include prism.js css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-okaidia.min.css">
+```
 
+```html
 <!-- Include Syntaxify JS -->
 <script src="https://cdn.jsdelivr.net/gh/SamuelDevp/Syntaxify@main/src/code-terminal.js"></script>
+<!-- Include prism.js js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/clipboard/prism-clipboard.min.js"></script>
 ```
 
 ## Usage

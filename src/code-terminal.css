@@ -1,0 +1,66 @@
+
+/* Terminal Container */
+.terminal {
+  background-color: #1e1e2e;
+  color: #dcdcdc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 400px;
+  position: relative;
+  font-family: 'Fira Code', monospace;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header with Dots */
+.terminal-header {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #ff5f56;
+}
+
+.yellow {
+  background-color: #ffbd2e;
+}
+
+.green {
+  background-color: #27c93f;
+}
+
+/* Code Block */
+.terminal-code {
+  background-color: #2e2e3e;
+  color: #f8f8f2;
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: scroll;
+}
+
+/* Copy Button */
+.copy-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 4px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 14px;
+  font-weight: 800;
+  transition: all 0.3s;
+}
+
+.copy-btn:hover {
+  background-color: #307a34;
+}
